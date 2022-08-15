@@ -57,7 +57,9 @@ const output2 = browserStack(actions2, start2);
 console.log(output2); // [["A", "B"], "D", ["E"]]
 ```
 
-## 나의 코드
+## 풀이
+
+세 가지 경우로 분리 : 페이지 이동 / 뒤로가기 / 앞으로가기
 
 ```javascript
 function browserStack(actions, start) {
